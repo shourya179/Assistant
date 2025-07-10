@@ -50,7 +50,7 @@ if __name__ == "__main__":
                 audio = r.listen(source) 
             word = r.recognize_google(audio)
             if word.lower() == "jarvis":
-                
+                speak("yes")
                 print("yes")
 
                 #lisen for the command after the wake word
