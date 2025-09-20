@@ -2,7 +2,7 @@ import speech_recognition as sr
 import webbrowser
 import pyttsx3
 import random
-
+import pyaudio
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
 
@@ -63,3 +63,4 @@ if __name__ == "__main__":
 
         except Exception as e:
                 print("google error; {0}".format(e))
+
